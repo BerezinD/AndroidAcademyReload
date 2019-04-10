@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical"
+        android:padding="@dimen/margins">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/header"
+            android:textSize="@dimen/header_size"
+            android:layout_margin="@dimen/margins"
+            android:textStyle="bold"
+
+    />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/android"
+            android:textSize="@dimen/button_text_size"
+            android:padding="@dimen/margins"
+            android:layout_margin="@dimen/margins"
+            android:background="@color/colorAccent"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+    />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/author"
+            android:textSize="@dimen/article_text_size"
+            android:layout_margin="@dimen/margins"
+            android:textStyle="bold"
+
+    />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/inside"
+            android:textSize="@dimen/article_text_size"
+            android:layout_margin="@dimen/margins"
+            android:layout_weight="1"
+            android:scrollbars="vertical"
+    />
+
+    <Button
+            android:id="@+id/all_presentations"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/all_presentations"
+            android:textSize="@dimen/button_text_size"
+            android:padding="@dimen/margins"
+            android:layout_margin="@dimen/margins"
+            android:background="@color/blue"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+    />
+
+</android.support.v7.widget.LinearLayoutCompat>
